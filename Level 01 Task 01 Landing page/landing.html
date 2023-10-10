@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bakery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="landing.css">
+    <link rel="icon" href="images/icon.jpeg">
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <div class="navbar-menu">
+            <b>
+        <a href="#home" class="link">Home</a>
+        <a href="#menu" class="link">Menu</a>
+        <a href="#about" class="link">About</a>
+        <a href="#contact" class="link">Contact</a>
+      </b>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="content1">
+            <div class="title">
+                <h1>
+                    <p>Crafting Sweet Memories,<br> One Bite at a Time!</p>
+                </h1>
+            </div>
+            <div class="div-image1">
+                <!-- // <img src="images/Cheesecake.jpeg" class="img">
+               // <img src="images/Chocolate-Lava-Cake-Feature.jpg" class="img"> -->
+            </div>
+            <div class="div-image2">
+
+            </div>
+        </div>
+
+        <div class="social-container">
+            <ul class="social-icons">
+                <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </div>
+
+        <section class="menu-section" id="menu">
+            <div class="menu-title">
+                <h1>Welcome to our Bakery</h1>
+                <p>Indulge in a World of Sweet Delights</p>
+            </div>
+            <div class="memu-style">
+                <div class="menu-row">
+                    <div class="menu-item">
+                        <img src="images/Lava Cake.webp" alt="Chocolate Lava Cake">
+                        <h2>Chocolate Lava Cake</h2>
+                        <p>Rich, warm chocolate cake with a molten center, served with a scoop of vanilla ice cream.</p>
+                        <span>$8.99</span>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="images/red-velvet-cake-slice.jpg" alt="Red Velvet Cake">
+                        <h2>Red Velvet Cake</h2>
+                        <p>Moist red velvet cake layers with cream cheese frosting, garnished with delightful vanilla and strawberry accents.
+                        </p>
+                        <span>$10.99</span>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="images/Tiramisu-14.jpg" alt="Tiramisu Cake">
+                        <h2>Tiramisu</h2>
+                        <p>Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cheese.</p>
+                        <span>$9.99</span>
+                    </div>
+                </div>
+
+                <div class="menu-row">
+                    <div class="menu-item">
+                        <img src="images/apple-pie.jpg" alt="Apple Pie">
+                        <h2>Apple Pie</h2>
+                        <p>Flaky pastry crust filled with cinnamon-spiced apples served with a scoop of caramel ice cream.</p>
+                        <span>$10.99</span>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/white-vanilla-cake.webp" alt="White Vanilla Cake">
+                        <h2>Vanilla Bean Cake</h2>
+                        <p>A light and fluffy vanilla cake with Madagascar vanilla bean frosting.</p>
+                        <span>$12.99</span>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/Pancake.jpg" alt="Strawberry Cake">
+                        <h2>Buttermilk Pancakes</h2>
+                        <p>Fluffy buttermilk pancakes served with sweet strawberries, drizzled with maple syrup.</p>
+                        <span>$13.99</span>
+                    </div>
+                </div>
+            </div>
+
+            <section class="about" id="about">
+                <div class="about-images">
+                    <div class="image-row">
+                        <img src="images/Strawberry Cupcakes.jpeg" alt="Strawberry Cupcakes">
+                        <img src="images/Dark Chocolate Cake Waffles.jpeg" alt="Chocolate Cake Waffles">
+                    </div>
+                    <div class="image-row">
+                        <img src="images/Sprinkle Bakes.jpeg" alt="Oktoberfest Party">
+                        <img src="images/Donuts.jpeg" alt="Donuts Gourmet">
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h2>About Our Company</h2>
+                    <p class="text">Experience a world of sweetness at our delightful dessert restaurant, where every visit is a journey into a realm of delicious flavors and treats <span id="dots">...</span><span id="more">We're passionate
+              about crafting the finest desserts using top-notch ingredients
+              and expert skills to create a symphony of flavors that satisfy
+              all tastes. Our diverse menu features mouthwatering desserts
+              and cakes, from rich chocolates to delicate pastries, each
+              a culinary masterpiece made with love and attention
+              to detail. Whether it's a special occasion or a sweet moment
+              with loved ones, our warm ambiance and great service promise
+              a memorable experience. Join us on a sweet journey where each
+              dessert is a work of art, and every visit is a chance to savor
+              life's sweetest moments. We can't wait to welcome you to our
+              haven of happiness, one delicious bite at a time.</span>
+                    </p>
+                    <button onclick="myFunction()" id="myBtn" class="read-more">Read More</button>
+                </div>
+            </section>
+
+            <script src="landing.js">
+            </script>
+            <section class="contact" id="contact">
+                <div class="contact-title">
+                    <h1>Get in Touch</h1>
+                    <h2>For any questions or feedback, feel free to reach out to us.</h2>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form" method="POST">
+                        <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                        <br>
+                        <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+                        <br>
+                        <textarea name="message" class="form-control" id="message" placeholder="Message" row="4" required></textarea>
+                        <br>
+                        <div class="s">
+                            <input type="submit" class="submit" value="SEND MESSAGE">
+                        </div>
+                    </form>
+                </div>
+                <div class="follow">
+                    <h3>Follow us on</h3>
+                    <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="icon"><i class="fa fa-twitter"></i></a>
+                </div>
+            </section>
+            <footer class="footer">
+                <p class="footer-title">&copy 2023 <span>Bakery. All right reserved.</span></p>
+            </footer>
+
+</body>
+
+</html>
